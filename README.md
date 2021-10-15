@@ -13,7 +13,7 @@
 
 **Team Name:** Team Reach!
 
-**Team Members:** [Deniz Jasarbasic](https://github.com/denizjasarbasic) (300229393), [Nicholas Yeung](https://github.com/NicholasYeung8) (300231222), [Marc Wakim](https://github.com/marcwakim) (), [Abdelaziz Amine](https://github.com/Abdelaziz64) (300260381), and [Hiba Souihel](https://github.com/hibss61) (300243025).
+**Team Members:** [Deniz Jasarbasic](https://github.com/denizjasarbasic) (300229393), [Nicholas Yeung](https://github.com/NicholasYeung8) (300231222), [Marc Wakim](https://github.com/marcwakim) (300250664), [Abdelaziz Amine](https://github.com/Abdelaziz64) (300260381), and [Hiba Souihel](https://github.com/hibss61) (300243025).
 
 **Product Name:** Reach (In Progress)
 
