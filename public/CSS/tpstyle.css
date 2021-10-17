@@ -1,18 +1,15 @@
+html {
+    height:100;
+}
+
 body{
     margin: 0;
     overflow: hidden;
     height: 100%;
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Calibri', sans-serif;
     background: white;
 }
 
-.strip{
-    position: absolute;
-    height: 100vh;
-    background: #fff;
-    width: 0.0625rem;
-    opacity: .3;
-}
 
 
 .container{
@@ -24,9 +21,9 @@ body{
 
 .card-grid{
     display: grid;
-    grid-column-gap: 1.5rem;
+    grid-column-gap: 1rem;
     max-width: 75rem;
-    width: 100%;
+    width: 75%;
 }
 
 @media(min-width: 75rem){
@@ -72,24 +69,39 @@ body{
 .card-heading{
     color: rgba(255, 255, 255, .9);
     font-size: 1.9rem;
-    text-shadow: 0.125rem 0.125rem 1.25rem rgba(0 , 0, 0, .2);
+    text-shadow: 0.125rem 0.125rem 1.25rem turquoise;
 }
 p{
     margin-top: -1.875rem;
 }
 
-
-
-
-
-
-.header img {
-    float: left;
-    margin-left: 0px;
-}
-  
 .header h3 {
     position: relative;
-    top: 18px;
-    left: 78%;
+    padding-left: 1750px;
+    bottom: 60px;
+
+}
+
+.nav_bar a {
+    position: relative;
+    bottom: 70px;
+
+}
+
+.header img {
+    position: relative;
+    padding-left: 40px;
+    top: 20px;
+}
+
+nav {
+    border-bottom: 1px solid turquoise;
+    border-bottom-width: 0.1px;
+}
+
+main {
+    text-align: center;
+}
+h1 {
+    color: #454141;
 }
