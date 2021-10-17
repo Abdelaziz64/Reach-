@@ -1,7 +1,7 @@
 # Reach - 2021 uOttawa Pitch Competition
 
 [comment]: <> (Logo & Badges:)
-![logo](https://user-images.githubusercontent.com/46465622/135704555-370235b8-a246-4fc3-9bcb-90bbbafcb70f.png)
+![logo](https://user-images.githubusercontent.com/90732434/137606849-186f2197-47d1-4833-986b-088cecce2f1f.png)
 
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
 [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
