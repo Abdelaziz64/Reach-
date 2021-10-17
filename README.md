@@ -1,7 +1,7 @@
 # Reach - 2021 uOttawa Pitch Competition
 
 [comment]: <> (Logo & Badges:)
-![logo](https://user-images.githubusercontent.com/46465622/135704555-370235b8-a246-4fc3-9bcb-90bbbafcb70f.png)
+![logo_straight](https://user-images.githubusercontent.com/90732434/137633862-7d35f2d9-3cff-45ee-baa7-ef6605ffea9b.png)
 
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
 [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
@@ -19,4 +19,4 @@
 
 **Product Description:** Reach, is a sports management web app tool that helps first year university students navigate, find, and successfully join sports teams across Canadian universities. 
 
-**GitHub Pages Link:** (link)[https://ourcompanyname.github.io]
+**GitHub Pages Link:** [Reach](https://ourcompanyname.github.io)
