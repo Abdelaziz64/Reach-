@@ -19,4 +19,6 @@
 
 **Product Description:** Reach, is a sports management web app tool that helps first year university students navigate, find, and successfully join sports teams across Canadian universities. 
 
-**GitHub Pages Link:** [Reach](https://ourcompanyname.github.io)
+**GitHub Website Link:** [Reach](https://ourcompanyname.github.io)
+
+**GitHub Source Files Links:** [Home/Landing Page](index.html), [Pricing Page](/public/HTML/pricing.html), [Product Features Page](/public/HTML/product_features.html), [Team Page](/public/HTML/team.html)
