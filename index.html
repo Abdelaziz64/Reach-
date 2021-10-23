@@ -2,36 +2,44 @@
 <html lang="en">
 
 <head>
-    <title>Reach</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reach - Making University Sports Easy</title>
     <link rel="stylesheet" href="public/CSS/index.css">
     <link rel="shortcut icon" href="public/images/logo.png" />
-
-    <div class="header">
-        <a href= "index.html">
-            <img src="public/images/logo_straight.jpg" alt="Reach Logo" />
-        </a>
-        <h3>Sign up | Log in</h3>
-    </div>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 </head>
 
-<nav>
-    <div style="width:10%; margin:0 auto;", class="nav_bar">
-        <a href="public/HTML/product_features.html">Features</a>
-        <a href="public/HTML/pricing.html">Pricing</a>
-        <a href="public/HTML/team.html">Our Team</a>
+<nav class="navbar">
+    <!-- Logo -->
+    <div class="logo">
+        <a href="index.html"><img src="public/images/logo_straight.png" alt="Reach Logo" /></a>
     </div>
+    <!-- Navigation Menu -->
+    <ul class="nav-links">
+        <!-- Navigation Menu Content -->
+        <div class="menu">
+            <li><a href="/">About</a></li>
+            <li><a href="public/HTML/product_features.html">Features</a></li>
+            <li><a href="public/HTML/pricing.html">Pricing</a></li>
+            <li><a href="public/HTML/team.html">Our Team</a></li>
+            <li><a href="/">Contact</a></li>
+        </div>
+    </ul>
+    <!-- Sign Up Buttons -->
+    <button id="btn-sign-up">Sign up</button>
+    <button id="btn-log-in">Log in</button>
 </nav>
 
 <body>
-    <div class = "content">
-        <div style = "display:inline-block;" >
+    <div class="content">
+        <div style="display:inline-block;">
             <h1>Get Playing</h1>
             <p>Sports are fun in university. <br>Finding, joining, and organizing each season is not. <br>Reach makes it easy to reach everyone’s sport dreams.</p>
             <p>| Get Started |</p>
             <p>Start for free, upgrade when you're ready</p>
         </div>
         <div style="display:inline-block;vertical-align:top;">
-            <img src="public/images/landing_page_image.png" alt="Landing Page Image"/>
+            <img src="public/images/landing_page_image.png" alt="Landing Page Image" />
         </div>
     </div>
 </body>
