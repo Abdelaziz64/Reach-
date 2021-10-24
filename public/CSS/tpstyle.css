@@ -1,11 +1,4 @@
-
-body{
-    margin: 0;
-    overflow: hidden;
-    height: 100%;
-    font-family: 'Calibri', sans-serif;
-    background: white;
-}
+/* Card positioning & text alignment */
 
 .container{
     align-items: flex-start;
@@ -30,7 +23,10 @@ body{
 
 .card{
     position: relative;
-    margin-top: -150px;
+    margin-top: -25px;
+    border: 5px solid #3A94FA;
+    box-sizing: border-box;
+    border-radius: 10px;
     
 }
 
@@ -44,7 +40,7 @@ body{
 .card-background{
     background-size: cover;
     background-position: center;
-    border-radius: 0.9375rem;
+    border-radius: 0.25rem;
     bottom: 0;
     left: 0;
     position: absolute;
@@ -55,9 +51,10 @@ body{
 }
 
 .card-content{
-    padding: 14.375rem 1.25rem;
+    padding: 14.375rem 1.20rem;
     position: absolute;
     top: 0;
+    font-family: Inter;
     
 
 }
@@ -66,6 +63,7 @@ body{
     color: rgb(48, 46, 46);
     font-size: .9rem;
     text-transform: uppercase;
+    font-family: Inter;
 }
 
 .card-heading{
