@@ -3,10 +3,11 @@
 .navbar {
     position: relative;
     display: flex;
-    width: 1205px;
+    width: 1242px;
     margin-left: auto;
     margin-right: auto;
     height: 75px;
+    z-index: 2;
 }
 
 .nav-links a {
@@ -62,7 +63,7 @@
 /* Navbar Buttons */
 
 #btn-sign-up {
-    position: absolute;
+    position: fixed;
     background-color: #3A94FA;
     border: none;
     color: white;
@@ -71,8 +72,8 @@
     text-align: center;
     font-size: 16px;
     margin: 4px 2px;
-    left: 961px;
-    top: 1.19vh;
+    margin-left: 981px;
+    top: 19px;
     text-decoration: none;
     cursor: pointer;
     border-radius: 5px;
@@ -90,7 +91,7 @@
 }
 
 #btn-log-in {
-    position: absolute;
+    position: fixed;
     background-color: #ffffff;
     border-style: solid;
     border-width: 3px;
@@ -101,8 +102,8 @@
     text-align: center;
     font-size: 16px;
     margin: 4px 2px;
-    left: 1075px;
-    top: 1.19vh;
+    margin-left: 1095px;
+    top: 19px;
     text-decoration: none;
     cursor: pointer;
     border-radius: 5px;
