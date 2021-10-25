@@ -136,7 +136,6 @@
     position: relative;
     display: block;
     color: #666666;
-    font-style: normal;
     font-family: 'Inter';
     font-size: 14pt;
     margin-top: -20px;
@@ -148,7 +147,7 @@
     background-color: #3A94FA;
     border: none;
     color: white;
-    width: 200px;
+    width: 160px;
     height: 50px;
     text-align: center;
     font-size: 16px;
@@ -186,4 +185,69 @@
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.container-about {
+    position: relative;
+    display: block;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-about img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 380px;
+}
+
+#click_me p {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 10pt;
+    color: #66645E;
+    top: 370px;
+}
+
+.container-about h1 {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 40pt;
+    color: #454141;
+    top: 570px;
+}
+
+.container-about p {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family: 'Inter';
+    font-size: 14pt;
+    color: #666666;
+    line-height: 2.8;
+    top: 590px;
+}
+
+.about img {
+    margin-top: 80px;
+    margin-bottom: 90px;
+    top: 600px;
+}
+
+.about_app img {
+    /* margin-top: 80px; */
+    margin-bottom: 90px;
+    top: 665px;
 }
