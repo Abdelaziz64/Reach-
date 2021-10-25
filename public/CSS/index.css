@@ -1,15 +1,12 @@
 /* Navbar */
 
 .navbar {
-    position: fixed;
+    position: relative;
     display: flex;
-    width: 100%;
-    height: 70px;
-    left: 0px;
-    top: 0px;
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.755);
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    width: 1205px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75px;
 }
 
 .nav-links a {
@@ -19,13 +16,17 @@
     color: rgb(54, 145, 250);
 }
 
+.nav-links a:hover {
+    color: rgb(0, 88, 189);
+    transition: 0.3s ease;
+}
+
 
 /* Navbar logo */
 
 .logo {
-    padding: 4px;
-    position: relative;
-    left: 5vw;
+    position: fixed;
+    padding: 9px;
 }
 
 
@@ -33,28 +34,35 @@
 
 .menu {
     display: flex;
-    padding: 7px;
-    position: relative;
-    left: 25vw;
+    padding: 6px;
+    position: fixed;
+    margin-left: 297px;
+    margin-right: 260px;
     gap: 1em;
     font-size: 15px;
 }
 
-.menu li:hover {
-    color: rgb(131, 5, 5);
-    font-weight: bolder;
-    transition: 0.3s ease;
+.menu li {
+    padding: 5px 8px;
+    list-style-type: none;
 }
 
-.menu li {
-    padding: 3px;
-    list-style-type: none;
+#nav_bar_rectangle {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 85px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.755);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 }
 
 
 /* Navbar Buttons */
 
 #btn-sign-up {
+    position: absolute;
     background-color: #3A94FA;
     border: none;
     color: white;
@@ -63,25 +71,26 @@
     text-align: center;
     font-size: 16px;
     margin: 4px 2px;
-    opacity: 1.0;
-    position: relative;
-    top: 1.2vh;
-    left: 51vw;
+    left: 961px;
+    top: 1.19vh;
     text-decoration: none;
     cursor: pointer;
     border-radius: 5px;
     font-style: normal;
     font-family: 'Inter';
     font-size: 14px;
-    opacity: 1.0;
 }
 
 #btn-sign-up:hover {
     transition: 0.1s;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3A94FA;
     background-color: #1677d8;
 }
 
 #btn-log-in {
+    position: absolute;
     background-color: #ffffff;
     border-style: solid;
     border-width: 3px;
@@ -92,9 +101,8 @@
     text-align: center;
     font-size: 16px;
     margin: 4px 2px;
-    position: relative;
-    top: 1.2vh;
-    left: 51vw;
+    left: 1075px;
+    top: 1.19vh;
     text-decoration: none;
     cursor: pointer;
     border-radius: 5px;
@@ -111,44 +119,70 @@
 
 /* Body */
 
-.header img {
-    float: left;
-    margin-left: 0px;
-}
-
-.header h3 {
+.container h1 {
+    display: block;
     position: relative;
-    font-style: normal;
-    font-family: 'Inter';
-    top: 18px;
-    left: 78%;
-}
-
-.content img {
-    margin-top: 150px;
-    margin-left: 350px;
-}
-
-.content p {
-    display: block;
-    font-style: normal;
-    font-family: 'Inter';
-    font-size: 14pt;
-    margin-top: 900px;
-    margin-bottom: 0.67em;
-    margin-left: 0px;
-    margin-right: 0;
-}
-
-.content h1 {
-    display: block;
     font-style: normal;
     font-weight: bold;
     font-family: 'Inter';
-    font-size: 72pt;
-    margin-top: 290px;
-    margin-bottom: 0.67em;
-    margin-left: 0px;
-    margin-right: 0;
+    font-size: 60pt;
+    margin-top: 260px;
+    margin-bottom: 0.52em;
     color: #454141;
+}
+
+.container h2 {
+    position: relative;
+    display: block;
+    color: #666666;
+    font-style: normal;
+    font-family: 'Inter';
+    font-size: 14pt;
+    margin-top: -20px;
+    line-height: 2;
+}
+
+.container #btn-get-started {
+    position: relative;
+    background-color: #3A94FA;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    position: relative;
+    margin-top: 0px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-style: normal;
+    font-family: 'Inter';
+}
+
+.container #btn-get-started:hover {
+    background-color: rgb(0, 88, 189);
+}
+
+.container p {
+    position: relative;
+    font-style: normal;
+    font-family: 'Inter';
+    font-size: 10pt;
+    margin-top: 17px;
+    margin-bottom: 0.67em;
+    color: #5F5F5F;
+}
+
+.container img {
+    margin-top: 180px;
+}
+
+.container {
+    position: relative;
+    display: block;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
