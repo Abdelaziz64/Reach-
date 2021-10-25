@@ -1,45 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<body>
 <head>
     <title>Features</title>
-    <link rel="stylesheet" href="../CSS/index.css">
-    <link rel="shortcut icon" href="../images/logo.png" />
+    <link rel="stylesheet" href="product_features.css">
+    <link rel="shortcut icon" href="logo.png" />
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+ 
+</head>
 
-    <nav class="navbar">
-
-        <div class="logo">
-            <a href="/index.html"><img src="../images/logo_straight.png" alt="Reach Logo" /></a>
+<nav class="navbar">
+    <!-- Logo -->
+    <div class="logo">
+        <a href="index.html"><img src="logo_straight.png" alt="Reach Logo" /></a>
+    </div>
+    <!-- Navigation Menu -->
+    <ul class="nav-links">
+        <!-- Navigation Menu Content -->
+        <div class="menu">
+            <li><a href="/">About</a></li>
+            <li><a href="product_features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="/">Contact</a></li>
         </div>
-    
-        <ul class="nav-links">
-    
-            <div class="menu">
-                <li><a href="/">About</a></li>
-                <li><a href="/public/HTML/product_features.html">Features</a></li>
-                <li><a href="/public/HTML/pricing.html">Pricing</a></li>
-                <li><a href="/public/HTML/team.html">Our Team</a></li>
-                <li><a href="/">Contact</a></li>
-            </div>
-        </ul>
-    
-        <button id="btn-sign-up">Sign up</button>
-        <button id="btn-log-in">Log in</button>
-    </nav>
+    </ul>
+    <!-- Sign Up Buttons -->
+    <button id="btn-sign-up">Sign up</button>
+    <button id="btn-log-in">Log in</button>
+</nav>
+
 
 <h1>Why Reach ?</h1>
 
 <h2>Features our platform offers</h2>
-
 <ul>
-    <li>Registration</li>
-    <li>Invoicing</li>
-    <li>Rostering</li>
-    <li>Scheduling </li>
-    <li>Annoucements and Discussion Forms</li>
+    <li id="registration">
+        <div id="download">
+            <p>Registration <img src="download.png"></p>
+        </div>
+        <p id="registration_text">Register for a team at your university within 3 clicks!</p>
+        <div id="image1">
+            <img src="image1.png">
+        </div>
+    </li>
+    <li id="invoicing"> 
+        <div id="credit_card">
+            <p>Invoicing <img src="credit_card.png"></p>
+        </div>
+        <p id="invoicing_text">Powerful and easy invoicing tools</p>
+        <div id="image2-3">
+            <div id="image2">
+                <img src="image2.png">
+            </div>
+            <div id="image3">
+                <img src="image3.png">
+            </div>
+        </div>
+    </li>
+    
+    <div id="rost-shed">
+        <div id="rostering">
+            <li id="rostering_image">
+                <p id="rostering_text">Rostering <img src="rostering.png"></p>
+            </li>
+            <p id="roster_text">The better way to manage rosters</p>
+            <img id="image4" src="image4.png">
+        </div>
+        
+
+        <div id="scheduling">
+            <li id="scheduling_image">
+                <p>Scheduling <img src="schedul.png"></p> </li>
+            <p id="schedul_text">Crazy schedules become crazy simple</p>
+            <img id="image5" src="image5.png">
+            
+        </div>  
+    </div>
+    <li id="forum">
+        <p id="forum_text">Annoucements and Discussion Forms</p>
+        <p id="forum_text2">Get real-time annocements about ...Post team registration opportunties, sports events, and ask questions.</p>
+        <img id="forum_image" src="forum_image.png">
+        <p id="join_our">Join our:</p>
+
+
+    </li>
 </ul>
 
 </body>
 
 </html>
+
+</body>
