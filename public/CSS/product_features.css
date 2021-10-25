@@ -1,0 +1,386 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.755);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-links a {
+    font-style: normal;
+    font-family: 'Inter';
+    text-decoration: none;
+    color: rgb(54, 145, 250);
+}
+
+
+/* Navbar logo */
+
+.logo {
+    padding: 4px;
+    position: relative;
+    left: 5vw;
+}
+
+
+/* Navbar Content */
+
+.menu {
+    display: flex;
+    padding: 7px;
+    position: relative;
+    left: 25vw;
+    gap: 1em;
+    font-size: 15px;
+}
+
+.menu li:hover {
+    color: rgb(131, 5, 5);
+    font-weight: bolder;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 3px;
+    list-style-type: none;
+}
+
+
+/* Navbar Buttons */
+
+#btn-sign-up {
+    background-color: #3A94FA;
+    border: none;
+    color: white;
+    width: 120px;
+    height: 38px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1.0;
+    position: relative;
+    top: 1.2vh;
+    left: 51vw;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-style: normal;
+    font-family: 'Inter';
+    font-size: 14px;
+    opacity: 1.0;
+}
+
+#btn-sign-up:hover {
+    transition: 0.1s;
+    background-color: #1677d8;
+}
+
+#btn-log-in {
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3A94FA;
+    color: #3A94FA;
+    width: 120px;
+    height: 38px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    position: relative;
+    top: 1.2vh;
+    left: 51vw;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-style: normal;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+#btn-log-in:hover {
+    transition: 0.1s;
+    background-color: #eaf2fa;
+}
+
+-------------------
+
+body{
+    background-color: blue;
+}
+
+h1{
+    position: absolute;
+    width: 100%;
+    height: 34px;
+    top: 186px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 24px;
+    /* or 50% */
+    text-align: center;
+    color: #454141;
+}
+
+
+h2{
+    position: absolute;
+width: 853px;
+height: 34px;
+left: 140px;
+top: 297px;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 24px;
+/* or 67% */
+color: #454141;
+}
+
+#registration{
+    position: absolute;
+width: 302px;
+height: 29px;
+left: 133px;
+top: 401px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 24px;
+/* or 80% */
+color: #454141;
+}
+
+#registration_text{
+    position: absolute;
+width: 914px;
+height: 48px;
+left: 203px;
+top: 120px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 200;
+font-size: 25px;
+line-height: 24px;
+/* or 96% */
+
+
+color: #454141;
+
+}
+
+#image1{
+    position: absolute;
+    
+    margin-top: 120px;
+    margin-left: 200px;
+
+}
+
+#invoicing{
+    position: absolute;
+width: 302px;
+height: 29px;
+left: 111px;
+top: 1550px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 24px;
+/* or 80% */
+color: #454141;
+}
+
+#invoicing_text{
+    
+/* Powerful and easy invoicing tools */
+position: absolute;
+width: 385px;
+height: 24px;
+left: 203px;
+top: 100px;
+font-family: Inter;
+font-style: normal;
+font-weight: 200;
+font-size: 35px;
+line-height: 24px;
+/* identical to box height, or 96% */
+color: #454141;
+}
+
+#image2-3{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 220px;
+}
+
+#image2{
+    margin-left: 0px;
+}
+#image3{
+    margin-left: 250px;
+}
+
+#credit_card{
+
+    margin-top: 40px;
+
+
+}
+
+#rostering_image {
+    position: absolute;
+width: 302px;
+height: 29px;
+left: 371px;
+top: 2250px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 24px;
+/* or 80% */
+color: #454141;
+
+}
+
+#scheduling_image{
+    position: absolute;
+    width: 302px;
+    height: 29px;
+    left: 1101px;
+    top: 2250px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 24px;
+    /* or 80% */
+    color: #454141;
+
+}
+
+#rost_shed{
+    margin-left: 500px;
+}
+
+#roster_text{
+    position: absolute;
+width: 392px;
+height: 24px;
+left: 320px;
+top: 2362px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 200;
+font-size: 25px;
+line-height: 24px;
+/* identical to box height, or 96% */
+
+
+color: #454141;
+}
+
+#schedul_text{
+    position: absolute;
+width: 443px;
+height: 24px;
+left: 1054px;
+top: 2362px;
+font-family: Inter;
+font-style: normal;
+font-weight: 200;
+font-size: 25px;
+line-height: 24px;
+/* identical to box height, or 96% */
+color: #454141;
+
+}
+
+#image4{
+    
+position: absolute;
+width: 449px;
+height: 253px;
+left: 301px;
+top: 2460px;
+}
+
+#image5{
+    position: absolute;
+width: 449px;
+height: 253px;
+left: 1101px;
+top: 2460px;
+}
+
+
+#forum{
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 24px;
+/* or 80% */
+color: #454141;
+
+}
+#forum_text{
+    /* Annoucements and Discussion Forms */
+
+position: absolute;
+width: 774px;
+height: 46px;
+left: 113px;
+top: 2811px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 24px;
+/* or 80% */
+color: #454141;
+}
+
+#forum_text2{
+    position: absolute;
+width: 1222px;
+height: 24px;
+left: 228px;
+top: 2882px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 200;
+font-size: 25px;
+line-height: 24px;
+/* identical to box height, or 96% */
+color: #454141;
+}
+
+#forum_image{
+    position: absolute;
+width: 716px;
+height: 325px;
+left: 258px;
+top: 2970px;
+
+background: url(.png);
+border: 5px solid #3A94FA;
+box-sizing: border-box;
+}
