@@ -1,4 +1,4 @@
-/* Navbar */
+/* ---------------------------------- Navbar ---------------------------------- */
 
 .navbar {
     position: relative;
@@ -27,7 +27,7 @@
 
 .logo {
     position: fixed;
-    padding: 9px;
+    padding: 10px;
 }
 
 
@@ -118,7 +118,10 @@
 }
 
 
-/* Body */
+/* ---------------------------------- Body Content ---------------------------------- */
+
+
+/* FRONT PAGE */
 
 .container h1 {
     display: block;
@@ -126,6 +129,7 @@
     font-style: normal;
     font-weight: bold;
     font-family: 'Inter';
+    margin-left: -3px;
     font-size: 60pt;
     margin-top: 260px;
     margin-bottom: 0.52em;
@@ -151,7 +155,6 @@
     height: 50px;
     text-align: center;
     font-size: 16px;
-    margin: 4px 2px;
     position: relative;
     margin-top: 0px;
     text-decoration: none;
@@ -201,6 +204,7 @@
     margin-left: auto;
     margin-right: auto;
     top: 380px;
+    overflow: scroll;
 }
 
 #click_me p {
@@ -214,6 +218,9 @@
     color: #66645E;
     top: 370px;
 }
+
+
+/* ABOUT REACH */
 
 .container-about h1 {
     position: relative;
@@ -250,4 +257,37 @@
     /* margin-top: 80px; */
     margin-bottom: 90px;
     top: 665px;
+}
+
+
+/* ---------------------------------- Footer ---------------------------------- */
+
+.footer hr {
+    position: relative;
+    top: 700px;
+    color: #D6D6D6;
+}
+
+.footer ul {
+    position: relative;
+    display: flex;
+    top: 704px;
+    font-size: 14px;
+    color: rgb(54, 145, 250);
+    gap: 1em;
+    text-align: right;
+}
+
+.footer img {
+    position: relative;
+    top: 750px;
+    margin-left: 0px;
+}
+
+.footer li {
+    text-decoration: none;
+    margin-bottom: 100px;
+    font-family: 'Inter';
+    background-position: 100%;
+    list-style-type: none;
 }
