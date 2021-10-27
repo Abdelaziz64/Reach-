@@ -1,6 +1,7 @@
 // Botton scroll to the bottom:
-document.getElementById('scroll_button').addEventListener('click', function() {
+let scrollToBottom = document.querySelector("#btn-get-started")
+let pageBottom = document.querySelector("#page-bottom")
 
-    var element = document.getElementById('box');
-    element.scrollTop = element.scrollHeight;
-});
+scrollToBottom.addEventListener("click", function() {
+  pageBottom.scrollIntoView()
+})

@@ -120,6 +120,9 @@
 
 /* ---------------------------------- Body Content ---------------------------------- */
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* FRONT PAGE */
 
@@ -278,7 +281,7 @@ hr {
     gap: 3em;
     text-align: right;
     list-style-position: inside;
-    left: 635px;
+    left: 632px;
 }
 
 .footer ul a {
