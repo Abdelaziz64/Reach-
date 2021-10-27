@@ -139,6 +139,8 @@
 .container h2 {
     position: relative;
     display: block;
+    font-weight: normal;
+    font-style: normal;
     color: #666666;
     font-family: 'Inter';
     font-size: 14pt;
@@ -262,32 +264,43 @@
 
 /* ---------------------------------- Footer ---------------------------------- */
 
-.footer hr {
+hr {
     position: relative;
-    top: 700px;
-    color: #D6D6D6;
+    top: 690px;
+    border-color: #ffffff;
+    background-color: #D6D6D6;
 }
 
 .footer ul {
     position: relative;
     display: flex;
-    top: 704px;
-    font-size: 14px;
-    color: rgb(54, 145, 250);
-    gap: 1em;
+    top: 693px;
+    gap: 3em;
     text-align: right;
+    list-style-position: inside;
+    left: 635px;
+}
+
+.footer ul a {
+    text-decoration: none;
+    font-family: 'Inter';
+    background-position: 100%;
+    font-size: 14px;
+    color:rgb(54, 145, 250);
+}
+
+.footer ul a:hover {
+    color: rgb(0, 88, 189);
+    transition: 0.3s ease;
 }
 
 .footer img {
     position: relative;
-    top: 750px;
+    top: 740px;
     margin-left: 0px;
 }
 
 .footer li {
-    text-decoration: none;
     margin-bottom: 100px;
-    font-family: 'Inter';
-    background-position: 100%;
     list-style-type: none;
 }
