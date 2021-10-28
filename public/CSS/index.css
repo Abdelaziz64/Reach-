@@ -124,6 +124,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 /* FRONT PAGE */
 
 .container h1 {
@@ -212,6 +213,11 @@ html {
     overflow: scroll;
 }
 
+#scroll_button img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleY(-1);
+}
+
 #click_me p {
     position: relative;
     display: block;
@@ -289,7 +295,7 @@ hr {
     font-family: 'Inter';
     background-position: 100%;
     font-size: 14px;
-    color:rgb(54, 145, 250);
+    color: rgb(54, 145, 250);
 }
 
 .footer ul a:hover {

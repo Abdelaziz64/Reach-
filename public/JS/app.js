@@ -1,7 +1,13 @@
-// Botton scroll to the bottom:
-let scrollToBottom = document.querySelector("#btn-get-started")
-let pageBottom = document.querySelector("#page-bottom")
+// Scroll to bottom feature:
+function scrollToAbout(element) {
+    $(document).ready(function() {
+        $(element).click(function() {
+            $(document).scrollTop($(document).height() / 2 - 25);
+        });
+    });
+}
 
-scrollToBottom.addEventListener("click", function() {
-  pageBottom.scrollIntoView()
-})
+scrollToAbout("#btn-get-started")
+scrollToAbout("#scroll_button")
+
+//$(document).height()
