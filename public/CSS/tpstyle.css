@@ -108,7 +108,7 @@ main h1 {
 
 
 
-/* Navbar */
+/* ---------------------------------- Navbar ---------------------------------- */
 
 .navbar {
     position: relative;
@@ -137,7 +137,7 @@ main h1 {
 
 .logo {
     position: fixed;
-    padding: 9px;
+    padding: 10px;
 }
 
 
@@ -227,3 +227,45 @@ main h1 {
     background-color: #eaf2fa;
 }
 
+/* ---------------------------------- Footer ---------------------------------- */
+
+hr {
+    position: relative;
+    top: 690px;
+    border-color: #ffffff;
+    background-color: #D6D6D6;
+}
+
+.footer ul {
+    position: relative;
+    display: flex;
+    top: 693px;
+    gap: 3em;
+    text-align: right;
+    list-style-position: inside;
+    left: 632px;
+}
+
+.footer ul a {
+    text-decoration: none;
+    font-family: 'Inter';
+    background-position: 100%;
+    font-size: 14px;
+    color: rgb(54, 145, 250);
+}
+
+.footer ul a:hover {
+    color: rgb(0, 88, 189);
+    transition: 0.3s ease;
+}
+
+.footer img {
+    position: relative;
+    top: 740px;
+    margin-left: 0px;
+}
+
+.footer li {
+    margin-bottom: 100px;
+    list-style-type: none;
+}
