@@ -1,0 +1,38 @@
+p{
+    color:black;
+    text-align:left;
+    font-style: inherit;
+   
+}
+h1{
+    text-align:center;
+    font-style: inherit;
+}
+h2{
+    color:blue;
+    text-align: center;
+    font-style: inherit;
+}
+table{
+   
+
+    padding:10px;
+   
+    
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+td{
+    vertical-align: 0px;
+  
+    border: 1px solid rgb(61, 59, 59);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+tr{
+    vertical-align: 0px;
+    
+    
+}
