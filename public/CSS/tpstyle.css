@@ -101,7 +101,7 @@ main h1 {
     text-align: center;
     color: #454141;
     font-family: Inter;
-    padding-top: 100px;
+    padding-top: 25px;
     font-size: 48px;
     
 }
@@ -268,4 +268,8 @@ hr {
 .footer li {
     margin-bottom: 100px;
     list-style-type: none;
+}
+
+html {
+    min-width: 1000px;
 }
