@@ -117,54 +117,51 @@
     background-color: #eaf2fa;
 }
 
+
 /* ---------------------------------- Body ---------------------------------- */
 
-h1{
-margin-top: 100px;
-font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 41.5px;
-line-height: 50%;
-/* or 50% */
-text-align: center;
-color: #454141;
+h1 {
+    margin-top: 100px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40pt;
+    line-height: 50%;
+    /* or 50% */
+    text-align: center;
+    color: #454141;
 }
 
-h2{
-    margin-left: 130px;
+h2 {
     margin-top: 85px;
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
-    font-size: 30.6px;
+    font-size: 35px;
     line-height: 24px;
     /* or 67% */
     color: #454141;
-    }
+}
+
 
 /* ---------------------------------- Registration ---------------------------------- */
-    
-.registration{
-    margin: 0 auto;
-    width: 90%;
-}
 
-#download{
+#download {
     width: 40px;
     height: 40px;
+    margin-left: 20px;
 }
 
-#image1{
+#image1 {
+    width: 93%;
+    height: 93%;
     margin-top: 30px;
-    width: 80%;
-    height: 80%;
 }
 
-.registration-image{
+.registration-image {
     margin: 0 auto;
     text-align: center;
-    width: 90%;
+    width: 100%;
 }
 
 .registration-text li {
@@ -174,55 +171,52 @@ h2{
     font-size: 25.5px;
     line-height: 24px;
     color: #454141;
-    margin-left: 120px;
 }
 
-.registration-logo{
+.registration-logo {
     display: flex;
     margin-top: 55px;
     height: 100%;
 }
-.registration-logo img{
-    margin-left: 12px;
+
+.registration-logo img {
+    margin-left: 15px;
 }
+
 .registration-logo li {
     margin-top: 5px;
 }
 
-.registration-text h3{
-    margin-top: 40px;
-    margin-left: 150px;
+.registration-text h3 {
+    margin-top: 30px;
+    margin-left: 37px;
     font-family: Inter;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 25;
     font-size: 21.25px;
     line-height: 24px;
-    color: #454141; 
+    color: #6a6868;
 }
+
 
 /* ---------------------------------- Invoicing ---------------------------------- */
 
-.invoicing{
-    margin: 0 auto;
-    width: 90%;
+#credit_card {
+    width: 40px;
+    height: 25px;
+    margin-top: 4px;
+    margin-left: 20px;
 }
 
-#credit_card{
-    width: 50px;
-    height: 30px;
-    margin-top: 5px;
-}
-
-#image2{
-    margin-top: 30px;
+#image2 {
+    margin-top: 17px;
     width: 80%;
     height: 80%;
 }
 
-.invoicing-image{
-    margin: 0 auto;
+.invoicing-image {
     text-align: center;
-    width: 90%;
+    margin-top: 30px;
 }
 
 .invoicing-text li {
@@ -232,60 +226,53 @@ h2{
     font-size: 25.5px;
     line-height: 24px;
     color: #454141;
-    margin-left: 120px;
 }
 
-.invoicing-logo{
+.invoicing-logo {
     display: flex;
-    margin-top: 55px;
+    margin-top: 90px;
     height: 100%;
 }
-.invoicing-logo img{
-    margin-left: 12px;
-}
+
 .invoicing-logo li {
     margin-top: 5px;
 }
 
-.invoicing-text h3{
-    margin-top: 40px;
-    margin-left: 150px;
+.invoicing-text h3 {
+    margin-top: 30px;
+    margin-left: 37px;
     font-family: Inter;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 25;
     font-size: 21.25px;
     line-height: 24px;
-    color: #454141; 
+    color: #6a6868;
 }
 
+
 /* ---------------------------------- Rostering and Scheduling ---------------------------------- */
-.rost-shed{
+
+.rost-shed {
     display: flex;
-    width: 90%;
-    margin: 0 auto;
+    position: relative;
+    margin-top: 50px;
 }
+
 
 /* ---------------------------------- Rostering ---------------------------------- */
 
-.rostering{
-    width: 40%;
-    margin-left: 130px;
-
-}
-
-#excel-table{
+#excel-table {
     width: 30px;
     height: 40px;
-
 }
 
-#image3{
+#image3 {
     margin-top: 30px;
     width: 80%;
     height: 80%;
 }
 
-.rostering-image{
+.rostering-image {
     margin: 0 auto;
     text-align: center;
     width: 90%;
@@ -298,53 +285,54 @@ h2{
     font-size: 25.5px;
     line-height: 24px;
     color: #454141;
-    margin-left: 120px;
 }
 
-.rostering-logo{
+.rostering-logo {
     display: flex;
+    margin-top: 60px;
     margin-top: 55px;
     height: 100%;
 }
-.rostering-logo img{
+
+.rostering-logo img {
     margin-left: 12px;
 }
+
 .rostering-logo li {
     margin-top: 5px;
 }
 
-.rostering-text h3{
-    margin-top: 40px;
-    margin-left: 150px;
+.rostering-text h3 {
+    margin-top: 23px;
+    margin-left: 37px;
     font-family: Inter;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 25;
     font-size: 21.25px;
     line-height: 24px;
-    color: #454141; 
+    color: #6a6868;
 }
+
 
 /* ---------------------------------- Scheduling ---------------------------------- */
 
-.scheduling{
-
+.scheduling {
     width: 40%;
-
 }
 
-#agenda{
+#agenda {
     width: 50px;
     height: 45px;
     margin-top: 0px;
 }
 
-#image4{
+#image4 {
     margin-top: 30px;
     width: 80%;
     height: 80%;
 }
 
-.scheduling-image{
+.scheduling-image {
     margin: 0 auto;
     text-align: center;
     width: 90%;
@@ -360,46 +348,44 @@ h2{
     margin-left: 120px;
 }
 
-.scheduling-logo{
+.scheduling-logo {
     display: flex;
     margin-top: 55px;
     height: 100%;
 }
-.scheduling-logo img{
+
+.scheduling-logo img {
     margin-left: 12px;
 }
+
 .scheduling-logo li {
     margin-top: 5px;
-
 }
 
-.scheduling-text h3{
-    margin-top: 40px;
-    margin-left: 150px;
+.scheduling-text h3 {
+    margin-top: 25px;
     font-family: Inter;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 25;
     font-size: 21.25px;
     line-height: 24px;
-    color: #454141; 
+    color: #6a6868;
 }
+
 
 /* ---------------------------------- Forum ---------------------------------- */
 
-.forum{
+.forum {
     margin: 0 auto;
-    width: 90%;
-
 }
 
-#image5{
+#image5 {
     margin-top: 30px;
     width: 100%;
     height: 100%;
 }
 
-.forum-image{
-
+.forum-image {
     margin-left: 100px;
     width: 50%;
 }
@@ -411,76 +397,81 @@ h2{
     font-size: 25.5px;
     line-height: 24px;
     color: #454141;
-    margin-left: 120px;
 }
 
-.forum-logo{
+.forum-logo {
     display: flex;
     margin-top: 55px;
     height: 100%;
 }
-.forum-logo img{
+
+.forum-logo img {
     margin-left: 12px;
 }
+
 .forum-logo li {
     margin-top: 5px;
 }
 
-.forum-text h3{
-    margin-top: 40px;
-    margin-left: 150px;
+.forum-text h3 {
+    margin-top: 30px;
+    margin-left: 37px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 25;
+    font-size: 21.25px;
+    line-height: 24px;
+    color: #6a6868;
+}
+
+.forum-button {
+    width: 30%;
+    margin-left: 35px;
+}
+
+.forum-button h3 {
     font-family: Inter;
     font-style: normal;
     font-weight: 200;
-    font-size: 21.25px;
+    font-size: 25px;
     line-height: 24px;
-    color: #454141; 
-}
-.forum-button{
-    width: 30%;
-    margin-left: 35px;
-
+    color: #454141;
 }
 
-.forum-button h3{
-font-family: Inter;
-font-style: normal;
-font-weight: 200;
-font-size: 25px;
-line-height: 24px;
-color: #454141;
+#button1,
+#button2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    color: white;
+    background: #3A94FA;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
 }
 
-#button1, #button2{
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 10px;
-color: white;
-
-background: #3A94FA;
-border: 1px solid #FFFFFF;
-box-sizing: border-box;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-
-}
-
-#button2{
+#button2 {
     margin-top: 20px;
     width: 260px;
 }
 
-#button1{
+#button1 {
     width: 210px;
 }
 
-.img-button{
+.img-button {
     display: flex;
-
     width: 100%;
 }
 
+.container {
+    position: relative;
+    display: block;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -43,6 +43,10 @@
     font-size: 15px;
 }
 
+#about-button-nav {
+    cursor: pointer;
+}
+
 .menu li {
     padding: 5px 8px;
     list-style-type: none;
@@ -216,6 +220,7 @@ html {
 #scroll_button img:hover {
     -webkit-transform: scaleX(-1);
     transform: scaleY(-1);
+    cursor: pointer;
 }
 
 #click_me p {
