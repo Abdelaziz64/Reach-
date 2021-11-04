@@ -268,14 +268,14 @@ h2 {
 
 #image3 {
     margin-top: 30px;
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
 }
 
 .rostering-image {
-    margin: 0 auto;
+    margin-left: 11px;
     text-align: center;
-    width: 90%;
+    width: 92%;
 }
 
 .rostering-text li {
@@ -289,17 +289,17 @@ h2 {
 
 .rostering-logo {
     display: flex;
-    margin-top: 60px;
     margin-top: 55px;
     height: 100%;
 }
 
 .rostering-logo img {
-    margin-left: 12px;
+    margin-top: -13px;
+    margin-left: 20px;
 }
 
 .rostering-logo li {
-    margin-top: 5px;
+    margin-top: -5px;
 }
 
 .rostering-text h3 {
@@ -316,14 +316,10 @@ h2 {
 
 /* ---------------------------------- Scheduling ---------------------------------- */
 
-.scheduling {
-    width: 40%;
-}
-
 #agenda {
     width: 50px;
     height: 45px;
-    margin-top: 0px;
+    margin-left: 20px;
 }
 
 #image4 {
@@ -333,7 +329,7 @@ h2 {
 }
 
 .scheduling-image {
-    margin: 0 auto;
+    margin-left: 60px;
     text-align: center;
     width: 90%;
 }
@@ -350,12 +346,12 @@ h2 {
 
 .scheduling-logo {
     display: flex;
-    margin-top: 55px;
+    margin-top: 45px;
     height: 100%;
 }
 
 .scheduling-logo img {
-    margin-left: 12px;
+    margin-left: 0px;
 }
 
 .scheduling-logo li {
@@ -363,7 +359,8 @@ h2 {
 }
 
 .scheduling-text h3 {
-    margin-top: 25px;
+    margin-top: 15px;
+    margin-left: 150px;
     font-family: Inter;
     font-style: normal;
     font-weight: 25;
@@ -376,7 +373,7 @@ h2 {
 /* ---------------------------------- Forum ---------------------------------- */
 
 .forum {
-    margin: 0 auto;
+    margin-top: 80px;
 }
 
 #image5 {
@@ -406,7 +403,7 @@ h2 {
 }
 
 .forum-logo img {
-    margin-left: 12px;
+    margin-left: 0px;
 }
 
 .forum-logo li {
@@ -474,4 +471,48 @@ h2 {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/* ---------------------------------- Footer ---------------------------------- */
+
+hr {
+    position: relative;
+    top: 125px;
+    border-color: #ffffff;
+    background-color: #D6D6D6;
+}
+
+.footer ul {
+    position: relative;
+    display: flex;
+    top: 130px;
+    gap: 3em;
+    text-align: right;
+    list-style-position: inside;
+    left: 632px;
+}
+
+.footer ul a {
+    text-decoration: none;
+    font-family: 'Inter';
+    background-position: 100%;
+    font-size: 14px;
+    color: rgb(54, 145, 250);
+}
+
+.footer ul a:hover {
+    color: rgb(0, 88, 189);
+    transition: 0.3s ease;
+}
+
+.footer img {
+    position: relative;
+    top: 180px;
+    margin-left: 0px;
+}
+
+.footer li {
+    margin-bottom: 100px;
+    list-style-type: none;
 }
