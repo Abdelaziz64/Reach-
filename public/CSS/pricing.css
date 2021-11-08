@@ -141,6 +141,7 @@ h1 {
     font-size: 40pt;
     color: #454141;
     top: 40px;
+    border-width: 10px;
 }
 
 h2 {
