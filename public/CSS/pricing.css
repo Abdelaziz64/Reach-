@@ -140,7 +140,7 @@ h1 {
     position: relative;
     font-size: 40pt;
     color: #454141;
-    top: 50px;
+    top: 40px;
 }
 
 h2 {
@@ -154,6 +154,11 @@ h3 {
     text-align: center;
     font-family: 'Inter';
 }
+
+h4 {
+    color: #CACACA;
+    text-align: center;
+    font-family: 'Inter';
 
 ul {
     font-family: 'Inter';
