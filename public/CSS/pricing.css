@@ -147,6 +147,7 @@ h2 {
     color: #3A94FA;
     text-align: center;
     font-family: 'Inter';
+    font-size: 50pt;
 }
 
 h3 {
@@ -159,6 +160,7 @@ h4 {
     color: #CACACA;
     text-align: center;
     font-family: 'Inter';
+    font-size: 10pt;
 
 ul {
     font-family: 'Inter';
