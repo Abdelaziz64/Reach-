@@ -133,38 +133,57 @@ p {
     text-align: left;
     font-family: 'Inter';
 }
-
-h1 {
+h1 { 
     text-align: center;
     font-family: 'Inter';
     position: relative;
     font-size: 40pt;
     color: #454141;
-    top: 40px;
-    border-width: 10px;
+    top: 30px;
 }
 
-h2 {
+.boxed h1 { 
+    text-align: center;
+    font-family: 'Inter';
+    position: relative;
+    font-size: 40pt;
+    color: #454141;
+    top: 30px;
+}
+
+.boxed h2 {
     color: #3A94FA;
     text-align: center;
     font-family: 'Inter';
-    font-size: 50pt;
+    font-size: 30pt;
+    position: relative;
+    top:20px;
 }
 
-h3 {
+.boxed h3 {
     color: #CACACA;
     text-align: center;
     font-family: 'Inter';
+    
 }
 
-h4 {
-    color: #CACACA;
+.boxed h4 {
     text-align: center;
     font-family: 'Inter';
-    font-size: 10pt;
-
-ul {
+    position: relative;
+    top:15px;
+}
+.boxed ul {
     font-family: 'Inter';
+    margin-left: 15px;
+    margin-right: 5px;
+    color: #454141;
+    line-height: 1.7;
+}
+
+.boxed li {
+    position: relative;
+    top:45px;
 }
 
 .center {
@@ -175,8 +194,8 @@ ul {
 .boxed {
     position: relative;
     top: 100px;
-    width: 355px;
-    height: 552px;
+    width: 370px;
+    height: 600px;
     color: rgb(191, 191, 191);
     box-shadow: 5px 5px 10px;
 }
@@ -186,9 +205,7 @@ ul {
     justify-content: space-between;
 }
 
-tr {
-    vertical-align: 0px;
-}
+
 
 .container {
     position: relative;
