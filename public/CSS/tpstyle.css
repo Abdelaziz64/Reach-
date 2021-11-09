@@ -1,6 +1,4 @@
-body {
-    position: relative;
-}
+
 
 
 /* Card positioning & text alignment */
@@ -15,7 +13,6 @@ html {
     justify-content: center;
     padding: 16.875rem 1.5rem;
     padding-top: 50px;
-    position: relative;
     
 }
 
@@ -24,12 +21,13 @@ html {
     grid-column-gap: 1rem;
     max-width: 300rem;
     width: 75%;
-    position: relative;
+    position: fixed;
 }
 
 @media(min-width: 100rem) {
     .card-grid {
         grid-template-columns: repeat(5, 1fr);
+        position: fixed;
     }
 }
 
@@ -50,6 +48,7 @@ html {
     content: '';
     display: block;
     padding-bottom: 150%;
+    position: relative;
 }
 
 .card-background {
@@ -70,14 +69,10 @@ html {
     top: 0;
     font-family: Inter;
     text-align: center;
+    position: fixed;
+    
 }
 
-.back {
-    padding: 14.375rem 1.20rem;
-    position: absolute;
-    top: 0;
-    font-family: Inter;
-}
 
 .card-category {
     color: #3A94FA;
@@ -86,6 +81,7 @@ html {
     font-family: Inter;
     font-weight: bold;
     text-align: center;
+    position: relative;
 }
 
 .card-heading {
@@ -95,6 +91,7 @@ html {
     font-weight: bold;
     margin-top: 160px;
     font-style: normal;
+    position: relative;
 }
 
 .front p {
@@ -153,6 +150,10 @@ main h1 {
     margin-right: 260px;
     gap: 1em;
     font-size: 15px;
+}
+
+#about-button-nav {
+    cursor: pointer;
 }
 
 .menu li {
@@ -227,52 +228,4 @@ main h1 {
 #btn-log-in:hover {
     transition: 0.1s;
     background-color: #eaf2fa;
-}
-
-
-/* ---------------------------------- Footer ---------------------------------- */
-
-hr {
-    position: relative;
-    top: 690px;
-    border-color: #ffffff;
-    background-color: #D6D6D6;
-}
-
-.footer ul {
-    position: relative;
-    display: flex;
-    top: 693px;
-    gap: 3em;
-    text-align: right;
-    list-style-position: inside;
-    left: 632px;
-}
-
-.footer ul a {
-    text-decoration: none;
-    font-family: 'Inter';
-    background-position: 100%;
-    font-size: 14px;
-    color: rgb(54, 145, 250);
-}
-
-.footer ul a:hover {
-    color: rgb(0, 88, 189);
-    transition: 0.3s ease;
-}
-
-.footer img {
-    position: relative;
-    top: 740px;
-    margin-left: 0px;
-}
-
-.footer li {
-    margin-bottom: 100px;
-    list-style-type: none;
-}
-
-html {
-    min-width: 1000px;
 }
