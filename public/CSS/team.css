@@ -146,7 +146,7 @@
 }
 
 .our_team .team_member{
-  width: 300px;
+  width: 280px;
   margin: 50px;
   background: #fff;
   border: 3px solid #E0E0E0;
@@ -155,8 +155,8 @@
 }
 
 .our_team .team_member .member_img{
-  width: 294.5px;
-  height: 320px;
+  width: 274.5px;
+  height: 330px;
   background-color: #E0E0E0;
 }
 
@@ -180,24 +180,24 @@
 
 .our_team .team_member p{
   margin-top: 20px;
-  font-size: 14px;
-  line-height: 26px;
+  font-size: 5px;
+  text-align: left;
+  line-height: 36px;
   color: white;
-  text-indent: 100%
+  text-indent: 100%;
+  visibility: hidden;
 
 }
 
 /* Social Media Icons */
 
 .our_team .team_member .member_img .social_media{
-  top: 450px;
-  left: 450px;
+  top: 550px;
+  left: 550px;
   margin-top: 100px;
   margin-left: 10px;
   display: flex;
   justify-content: center;
-  /* transform: scale(0);
-  transition: all 0.5s ease; */
 }
 
 .our_team .team_member .member_img .social_media .item{
@@ -206,60 +206,19 @@
 
 .our_team .team_member .member_img .social_media .fab{
   color: #3A94FA;
+  margin-top: 30px;
   font-size: 20px;
   
 }
 
-.our_team .team_member .member_img .social_media .fas{
+.our_team .team_member .member_img .social_media .far{
   color: #3A94FA;
   font-size: 20px;
+  margin-top: 30px;
 }
 
 
 body {
   overflow-y:scroll;
   overflow-x: hidden
-}
-
-/* ---------------------------------- Footer ---------------------------------- */
-
-hr {
-  position: relative;
-  top: 690px;
-  border-color: #ffffff;
-  background-color: #D6D6D6;
-}
-
-.footer ul {
-  position: relative;
-  display: flex;
-  top: 693px;
-  gap: 3em;
-  text-align: right;
-  list-style-position: inside;
-  left: 632px;
-}
-
-.footer ul a {
-  text-decoration: none;
-  font-family: 'Inter';
-  background-position: 100%;
-  font-size: 14px;
-  color: rgb(54, 145, 250);
-}
-
-.footer ul a:hover {
-  color: rgb(0, 88, 189);
-  transition: 0.3s ease;
-}
-
-.footer img {
-  position: relative;
-  top: 740px;
-  margin-left: 0px;
-}
-
-.footer li {
-  margin-bottom: 100px;
-  list-style-type: none;
 }
