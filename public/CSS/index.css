@@ -277,6 +277,12 @@ html {
     top: 665px;
 }
 
+.TOS p {
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 14pt;
+}
+
 
 /* ---------------------------------- Footer ---------------------------------- */
 
@@ -287,10 +293,27 @@ hr {
     background-color: #D6D6D6;
 }
 
+.TOS hr {
+    position: relative;
+    top: -120px;
+    border-color: #ffffff;
+    background-color: #D6D6D6;
+}
+
 .footer ul {
     position: relative;
     display: flex;
     top: 693px;
+    gap: 3em;
+    text-align: right;
+    list-style-position: inside;
+    left: 632px;
+}
+
+.TOS .footer ul {
+    position: relative;
+    display: flex;
+    top: -115px;
     gap: 3em;
     text-align: right;
     list-style-position: inside;
@@ -313,6 +336,12 @@ hr {
 .footer img {
     position: relative;
     top: 740px;
+    margin-left: 0px;
+}
+
+.TOS .footer img {
+    position: relative;
+    top: -65px;
     margin-left: 0px;
 }
 
