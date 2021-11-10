@@ -1,0 +1,233 @@
+/* ---------------------------------- Navbar ---------------------------------- */
+
+.navbar {
+  position: relative;
+  display: flex;
+  width: 1242px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 75px;
+  z-index: 2;
+}
+
+.nav-links a {
+  font-style: normal;
+  font-family: 'Inter';
+  text-decoration: none;
+  color: rgb(54, 145, 250);
+}
+
+.nav-links a:hover {
+  color: rgb(0, 88, 189);
+  transition: 0.3s ease;
+}
+
+
+/* Navbar logo */
+
+.logo {
+  position: fixed;
+  padding: 10px;
+}
+
+
+/* Navbar Content */
+
+.menu {
+  display: flex;
+  padding: 6px;
+  position: fixed;
+  margin-left: 297px;
+  margin-right: 260px;
+  gap: 1em;
+  font-size: 15px;
+}
+
+#about-button-nav {
+  cursor: pointer;
+}
+
+.menu li {
+  padding: 5px 8px;
+  list-style-type: none;
+}
+
+#nav_bar_rectangle {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 85px;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.755);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Navbar Buttons */
+
+#btn-sign-up {
+  position: fixed;
+  background-color: #3A94FA;
+  border: none;
+  color: white;
+  width: 120px;
+  height: 38px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 981px;
+  top: 19px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-style: normal;
+  font-family: 'Inter';
+  font-size: 14px;
+}
+
+#btn-sign-up:hover {
+  transition: 0.1s;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #3A94FA;
+  background-color: #1677d8;
+}
+
+#btn-log-in {
+  position: fixed;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #3A94FA;
+  color: #3A94FA;
+  width: 120px;
+  height: 38px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 1095px;
+  top: 19px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-style: normal;
+  font-family: 'Inter';
+  font-size: 14px;
+}
+
+#btn-log-in:hover {
+  transition: 0.1s;
+  background-color: #eaf2fa;
+}
+
+  
+/* Team Profile / Cards */
+
+.container{
+  margin-top: 60px;
+  text-align: center;
+  font-family: Inter;
+  color: #454141
+}
+
+.container h1{
+  font-family: Inter;
+  font-size: 48px;
+  color: #454141;
+  margin-bottom: 25px;
+}
+
+.our_team{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.our_team .team_member{
+  width: 250px;
+  margin: 5px;
+  background: #fff;
+  padding: 20px 10px;
+  border: 5px solid #3A94FA;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.our_team .team_member .member_img{
+  background: #e9e5fa;  
+  max-width: 190px;
+  width: 100%;
+  height: 190px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.our_team .team_member .member_img img{
+  width: 100%;
+  height: 100%;
+}
+
+.our_team .team_member h3{
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  margin: 15px 0 0px;
+}
+
+.our_team .team_member span{
+  font-size: 10px;
+  color: #3A94FA;
+}
+
+.our_team .team_member p{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+}
+
+/* Social Media Icons */
+
+.our_team .team_member .member_img .social_media{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: rgba(0,0,0,0.65);
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+  transition: all 0.5s ease;
+}
+
+.our_team .team_member .member_img .social_media .item{
+  margin: 0 10px;
+}
+
+.our_team .team_member .member_img .social_media .fab{
+  color: #3A94FA;
+  font-size: 20px;
+  
+}
+
+.our_team .team_member .member_img .social_media .fas{
+  color: #3A94FA;
+  font-size: 20px;
+}
+
+.our_team .team_member .member_img:hover .social_media{
+  transform: scale(1);
+}
+
+body {
+  overflow-y:scroll;
+}
