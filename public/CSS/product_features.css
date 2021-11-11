@@ -542,3 +542,7 @@ hr {
     margin-bottom: 100px;
     list-style-type: none;
 }
+
+html {
+    overflow-x: hidden;
+}
